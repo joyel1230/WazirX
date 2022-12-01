@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", "Lato", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1e2433;
+    overflow-x: hidden;
+}
+
+
+nav{
+    width: 100%;
+    font-family: "Open Sans", Lato, sans-serif;
+    background-color: #1e2433;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-left: 30px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.199);
+}
+
+.nav-container ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container ul li{
+    padding: 1.65rem 2.6rem;
+    border-left: 1px solid #1e2433;
+    cursor: pointer;
+}
+
+.nav-container ul li a{
+    color: #abb1bf;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
+
+.second-div{
+    height: 100vh;
+    background-color: #1e2433;
+    padding: 60px 0 0 60px;
+    position: relative;
+    margin-bottom: 1px;
+}
+.second-div-1{
+    width: 43%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: absolute;
+    margin: 72px 0 0 105px;
+    top: 0;
+    display: block;
+}
+.second-div-1 h1{
+    display: block;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    font-style: italic;
+}
+.second-div-1 button{
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eac808;
+    color: black;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.4;
+    width: 300px;
+    cursor: pointer;
+}
+.features-container{
+    width: 74%;
+    margin:-50px auto 100px auto;
+    padding-top: 80px;
+}
+
+.features{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.features > div{
+    width: 100%;  
+    display: grid;
+    color: aliceblue;
+    place-items: center;
+}
+
+.features > div img{
+    height: 100px;
+    
+}
+
+.features div .text{
+    text-align: center;
+    padding: 0 4.5rem;
+}
+.text h2{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Open Sans", Lato, sans-serif;
+    color: #e6e9f0;
+}
+.text p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Open Sans", Lato, sans-serif;
+    color: #abb1bf;
+}
+.blue-div{
+    width: 100%;
+    background-color: #3067f0;
+    padding: 30px 40px;
+    position: relative;
+}
+.blue-in-1 h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: "Open Sans", Lato, sans-serif;
+}
+
+.blue-in-2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 25px;
+}
+.blue-in-2 img{
+    background-color: #1e2433;
+    border-radius: 8px;
+}
+.blue-div > img{
+    position: absolute;
+    width: 240px;
+    right: 0;
+    top:-85px;
+    display: flex;
+}
+
+.black-div-container{
+    background-color: #101623;
+    border-bottom: 4px solid #3067f0;
+}
+
+.black-div{
+    width: 70%;
+    padding: 6rem;
+    margin: 0 auto;
+}
+
+.black-div h1,
+.black-div p,
+.black-div h3{
+    color: white;
+    font-family: "Open Sans", Lato, sans-serif;
+}
+.footer-container{
+    width: 100%;
+    padding: 40px 25px;
+    margin-left: 30px;
+}
+.first-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #3f3f3f;
+}
+.first-footer-1{
+    display: flex;
+    gap: 20px;
+}
+.second-footer{
+    width: 90%;
+    display: flex;
+    color: white;
+    font-weight: 400;
+    justify-content: space-between;
+    margin:30px 0 0 -20px ;
+}
+.second-footer li{
+    padding-bottom: 10px;
+}
+.second-footer a{
+    color: white;
+}
+.second-footer h3{
+    padding-left: 40px;
+}
+.last-footer{
+    width: 90%;
+    padding: 30px 0 0 40%;
+    border-top: 1px solid #3f3f3f;
+    color: white;
+    
+}
